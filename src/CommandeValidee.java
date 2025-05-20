@@ -6,17 +6,17 @@ public class CommandeValidee extends EtatCommande {
 
     @Override
     public void ajouteProduit(Produit produit) {
-        // Aucun message ou action
+        // No action
     }
 
     @Override
     public void retireProduit(Produit produit) {
-        // Aucun message ou action
+        // No action
     }
 
     @Override
     public void efface() {
-        // Aucun message ou action
+        commande.getProduits().clear();
     }
 
     @Override
